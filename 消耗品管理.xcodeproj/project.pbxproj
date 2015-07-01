@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E5B31ED61B3175CB008775A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B31ED51B3175CB008775A7 /* AppDelegate.swift */; };
-		E5B31ED81B3175CB008775A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B31ED71B3175CB008775A7 /* ViewController.swift */; };
 		E5B31EDB1B3175CB008775A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B31ED91B3175CB008775A7 /* Main.storyboard */; };
 		E5B31EDD1B3175CB008775A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5B31EDC1B3175CB008775A7 /* Images.xcassets */; };
 		E5B31EE01B3175CB008775A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B31EDE1B3175CB008775A7 /* LaunchScreen.xib */; };
 		E5B31EEC1B3175CB008775A7 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B31EEB1B3175CB008775A7 /* _____Tests.swift */; };
+		E5B31EF61B3179A7008775A7 /* ItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B31EF51B3179A7008775A7 /* ItemTableViewController.swift */; };
+		E5B31EF81B317C8E008775A7 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B31EF71B317C8E008775A7 /* ItemTableViewCell.swift */; };
+		E5B31EFA1B3181C1008775A7 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B31EF91B3181C1008775A7 /* ItemDetailsViewController.swift */; };
+		E5B31EFC1B318DE9008775A7 /* imagea.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5B31EFB1B318DE9008775A7 /* imagea.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		E5B31ED01B3175CB008775A7 /* 消耗品管理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "消耗品管理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B31ED41B3175CB008775A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B31ED51B3175CB008775A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5B31ED71B3175CB008775A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E5B31EDA1B3175CB008775A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5B31EDC1B3175CB008775A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E5B31EDF1B3175CB008775A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E5B31EE51B3175CB008775A7 /* 消耗品管理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "消耗品管理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B31EEA1B3175CB008775A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5B31EEB1B3175CB008775A7 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		E5B31EF51B3179A7008775A7 /* ItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewController.swift; sourceTree = "<group>"; };
+		E5B31EF71B317C8E008775A7 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		E5B31EF91B3181C1008775A7 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		E5B31EFB1B318DE9008775A7 /* imagea.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = imagea.jpeg; path = ../../../../Downloads/imagea.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				E5B31ED51B3175CB008775A7 /* AppDelegate.swift */,
-				E5B31ED71B3175CB008775A7 /* ViewController.swift */,
+				E5B31EF51B3179A7008775A7 /* ItemTableViewController.swift */,
+				E5B31EF71B317C8E008775A7 /* ItemTableViewCell.swift */,
+				E5B31EF91B3181C1008775A7 /* ItemDetailsViewController.swift */,
 				E5B31ED91B3175CB008775A7 /* Main.storyboard */,
+				E5B31EFB1B318DE9008775A7 /* imagea.jpeg */,
 				E5B31EDC1B3175CB008775A7 /* Images.xcassets */,
 				E5B31EDE1B3175CB008775A7 /* LaunchScreen.xib */,
 				E5B31ED31B3175CB008775A7 /* Supporting Files */,
@@ -195,6 +204,7 @@
 				E5B31EDB1B3175CB008775A7 /* Main.storyboard in Resources */,
 				E5B31EE01B3175CB008775A7 /* LaunchScreen.xib in Resources */,
 				E5B31EDD1B3175CB008775A7 /* Images.xcassets in Resources */,
+				E5B31EFC1B318DE9008775A7 /* imagea.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +222,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5B31ED81B3175CB008775A7 /* ViewController.swift in Sources */,
+				E5B31EF81B317C8E008775A7 /* ItemTableViewCell.swift in Sources */,
+				E5B31EFA1B3181C1008775A7 /* ItemDetailsViewController.swift in Sources */,
+				E5B31EF61B3179A7008775A7 /* ItemTableViewController.swift in Sources */,
 				E5B31ED61B3175CB008775A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
